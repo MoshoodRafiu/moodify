@@ -9,14 +9,5 @@ export default defineConfig({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
         }),
-    ],
-    build: {
-
-        /** If you set esmExternals to true, this plugins assumes that
-          all external dependencies are ES modules */
-
-        commonjsOptions: {
-           esmExternals: true
-        },
-     }
+    ]
 });
