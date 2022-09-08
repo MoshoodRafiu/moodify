@@ -1,6 +1,6 @@
 import * as VueRouter from 'vue-router';
 
-import Home from '../components/Home.vue';
+import Home from '../../components/Home.vue';
 
 const routes = [
     {path: '/', component: Home}
