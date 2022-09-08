@@ -1,9 +1,9 @@
 import * as VueRouter from 'vue-router';
 
-import Home from '../../components/Home.vue';
+import MainView from '../../components/Dashboard/MainView.vue';
 
 const routes = [
-    {path: '/', component: Home}
+    { path: '/', component: MainView }
 ];
 
 const router = new VueRouter.createRouter({
